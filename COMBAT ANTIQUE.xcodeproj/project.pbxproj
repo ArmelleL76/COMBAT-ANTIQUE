@@ -11,6 +11,8 @@
 		D58B633E23D591AA00A5BA8E /* Ax.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B633D23D591AA00A5BA8E /* Ax.swift */; };
 		D58B634023D5921500A5BA8E /* Arm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B633F23D5921500A5BA8E /* Arm.swift */; };
 		D58B634223D5936E00A5BA8E /* Chest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B634123D5936E00A5BA8E /* Chest.swift */; };
+		D58B634423D5946800A5BA8E /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B634323D5946800A5BA8E /* Warrior.swift */; };
+		D58B634623D5954200A5BA8E /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58B634523D5954200A5BA8E /* Sword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		D58B633D23D591AA00A5BA8E /* Ax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ax.swift; sourceTree = "<group>"; };
 		D58B633F23D5921500A5BA8E /* Arm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arm.swift; sourceTree = "<group>"; };
 		D58B634123D5936E00A5BA8E /* Chest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chest.swift; sourceTree = "<group>"; };
+		D58B634323D5946800A5BA8E /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		D58B634523D5954200A5BA8E /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,9 @@
 				D58B633623D5836500A5BA8E /* main.swift */,
 				D58B633F23D5921500A5BA8E /* Arm.swift */,
 				D58B633D23D591AA00A5BA8E /* Ax.swift */,
+				D58B634323D5946800A5BA8E /* Warrior.swift */,
 				D58B634123D5936E00A5BA8E /* Chest.swift */,
+				D58B634523D5954200A5BA8E /* Sword.swift */,
 			);
 			path = "COMBAT ANTIQUE";
 			sourceTree = "<group>";
@@ -130,9 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D58B633E23D591AA00A5BA8E /* Ax.swift in Sources */,
+				D58B634423D5946800A5BA8E /* Warrior.swift in Sources */,
 				D58B634223D5936E00A5BA8E /* Chest.swift in Sources */,
 				D58B633723D5836500A5BA8E /* main.swift in Sources */,
 				D58B634023D5921500A5BA8E /* Arm.swift in Sources */,
+				D58B634623D5954200A5BA8E /* Sword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
