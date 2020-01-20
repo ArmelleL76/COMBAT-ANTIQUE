@@ -49,7 +49,7 @@ func increasePowerArm ()
         {self.arm.damage += 8}
         
         func description() {
-            print("Arm : " + "\(self.arm)" + "   Life : " + " \(self.life)" + "   Damages : " + " \(self.arm.damage)")
+            print("Arm : \(self.arm)" + "   Life : \(self.life)" + "   Damages : \(self.arm.damage)")
         }
     func cureOneself(){
         self.life +=  10 }

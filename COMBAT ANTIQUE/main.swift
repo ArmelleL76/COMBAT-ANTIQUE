@@ -90,7 +90,8 @@ let knightTwo = Warrior(fighterName : knight2.fighterName , fighter : .knight)
 
 
 print("\(firstPlayer.displayTeam())")
-// la fonction description étant dans warrior, elle ne s'applique pas à firstPlayer   il faut définir un Warrior pour utiliser la fonction description  voir plus bas et remonter les instanciations let viking1 = warrior(
+// la fonction description étant dans warrior, elle ne s'applique pas à firstPlayer
+
 //print("\(firstPlayer.description())")
 print("Viking1  : \(viking1.fighterName)\n")
 print("\(vikingOne.description())\n")
