@@ -192,7 +192,7 @@ if  bool == chest.appear(){
 
 
 
-//We choose the actionand we play until one of the fighters is dead
+//We choose the action and we play until one of the fighters is dead
 while fighterA.life > 0 && fighterB.life > 0 {
 firstPlayer.play(fighter : fighterA)
 print("voici les nouvelles valeurs : life : \(fighterA.life)\n"+"force de l'arme: \(fighterA.arm.damage)")
