@@ -32,7 +32,8 @@ class Warrior{
        
 func receiveDamage(damage : Int){
             self.life = self.life - damage
-            if self.life < 0
+      //If life turns into negative value, life will be equal to zero
+    if self.life < 0
             {
                 self.life = 0
             }

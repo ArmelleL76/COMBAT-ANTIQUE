@@ -192,11 +192,17 @@ if  bool == chest.appear(){
 
 
 
-//We choose the action
+//We choose the actionand we play until one of the fighters is dead
+while fighterA.life > 0 && fighterB.life > 0 {
 firstPlayer.play(fighter : fighterA)
 print("voici les nouvelles valeurs : life : \(fighterA.life)\n"+"force de l'arme: \(fighterA.arm.damage)")
 secondPlayer.play(fighter : fighterB)
-print("voici les nouvelles valeurs : life : \(fighterB.life)\n"+"force de l'arme: \(fighterB.arm.damage)")
+    print("voici les nouvelles valeurs : life : \(fighterB.life)\n"+"force de l'arme: \(fighterB.arm.damage)")}
 
 
 // We look for the winner
+if  fighterA.life > 0 {
+    print("The winner is \(fighterA.fighterName)")
+    }
+else {print("The winner is \(fighterB.fighterName)")
+}
