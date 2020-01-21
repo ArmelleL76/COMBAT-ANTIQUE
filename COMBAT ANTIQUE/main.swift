@@ -182,10 +182,10 @@ if  bool == chest.appear(){
         switch number{
         case 1 :  print("Player number 1, Do you want to exchange your fighter's arm with the random one?(yes or no)")
     if let response = readLine(){
-        if response == "yes" {fighterA.arm.damage = damage}}
+        if response == "yes" {fighterA.arm.damage = chest.armStrenght()}}
         case 2 : print("Player number 2, Do you want to exchange your fighter's arm with the random one?(yes or no)")
         if let response = readLine(){
-            if response == "yes" {fighterB.arm.damage = damage}
+        if response == "yes" {fighterB.arm.damage = chest.armStrenght()}
         }
         default : break
             
