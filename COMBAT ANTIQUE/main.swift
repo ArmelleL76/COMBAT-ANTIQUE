@@ -174,7 +174,7 @@ var bool : Bool = false
 if  bool == chest.appear(){
     let damage : Int = chest.armStrenght()
     print("The chest contains a random Arm of strenght : \(damage)\n)")
-    
+}
     
  //The opportunity to exchange arms is given to the fighter of one player, choosen randomly
     
@@ -190,7 +190,7 @@ if  bool == chest.appear(){
         default : break
             
         }
-            }
+            
 
 
 
