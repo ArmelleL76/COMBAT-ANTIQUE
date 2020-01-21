@@ -8,6 +8,7 @@
 
 import Foundation
 class Ax : Arm {
+   
     init() {
         super.init (damage : 15)
     }

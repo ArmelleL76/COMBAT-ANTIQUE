@@ -9,6 +9,7 @@
 import Foundation
 class Warrior{
     var fighterName : String
+    var armName : String
     var arm : Arm
     var life : Int
     let fighter : WarriorType
@@ -20,13 +21,16 @@ class Warrior{
         switch self.fighter {
         case .viking :
             self.arm = Ax()
+            self.armName = "ax"
             self.life = 90
         case .gladiator :
             self.arm = BroadSword()
             self.life = 110
+            self.armName = "sword"
         case .knight :
             self.arm = Sword()
             self.life = 80
+            self.armName = "broadSword"
         }
     }
        
@@ -49,7 +53,7 @@ func increasePowerArm ()
         {self.arm.damage += 8}
         
         func description() {
-            print("Arm : \(self.arm)" + "   Life : \(self.life)" + "   Damages : \(self.arm.damage)")
+            print("Arm : \(self.armName)" + "   Life : \(self.life)" + "   Damages : \(self.arm.damage)")
         }
     func cureOneself(){
         self.life +=  10 }

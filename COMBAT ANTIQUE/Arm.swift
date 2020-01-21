@@ -8,8 +8,10 @@
 import Foundation
 class Arm {
     var damage : Int
+    
     init(damage : Int){
         self.damage = damage
+        
     }
 }
 

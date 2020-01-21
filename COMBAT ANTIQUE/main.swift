@@ -94,9 +94,10 @@ print("\(firstPlayer.displayTeam())")
 
 //print("\(firstPlayer.description())")
 print("Viking1  : \(viking1.fighterName)\n")
-print("\(vikingOne.description())\n")
+print(vikingOne.description())
+
 print("Gladiator1  : \(gladiator1.fighterName)\n")
-print("\(gladiatorOne.description())\n")
+print(gladiatorOne.description())
 print("Knight1  : \(knight1.fighterName)\n")
 print("\(knightOne.description())\n")
 
