@@ -15,9 +15,11 @@ class Chest{
         let random = Int.random(in: 1..<7)
         if random % 2 == 0 {
             print("A chest has appeared\n")
-        return true
+            print("The chest contains a random Arm of strenght : \(randomStrenght)\n)")
+            return true
         }
         else {return false}
+     
     }
     func armStrenght()->Int{
         let randomInteger = Int.random(in: 8..<21)
