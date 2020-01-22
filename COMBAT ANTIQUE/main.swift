@@ -164,8 +164,8 @@ default : break
 
 print ("")
 //We create and display the fighters player1 and player2 have choosen
-var fighterA = Warrior(fighterName : "\(player1Choice)", fighter : warriorType1)
-var fighterB = Warrior(fighterName : "\(player2Choice)", fighter : warriorType2)
+var fighterA = Warrior(fighterName : "\(name1)", fighter : warriorType1)
+var fighterB = Warrior(fighterName : "\(name2)", fighter : warriorType2)
 print("\(fighterA.fighter)..: \(name1) will be opposed to : \(fighterB.fighter).....\(name2)")
 print("")
 //A chest will appear or not
